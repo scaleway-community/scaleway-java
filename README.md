@@ -4,7 +4,7 @@ Scripts to build the official Java image on Scaleway
 
 This image is built using [Image Tools](https://github.com/scaleway/image-tools) and depends on the official [Ubuntu](https://github.com/scaleway/image-ubuntu) image.
 
-<img src="http://upload.wikimedia.org/wikipedia/fr/thumb/2/2e/Java_Logo.svg/131px-Java_Logo.svg.png" width="500px" />
+<img src="http://upload.wikimedia.org/wikipedia/fr/thumb/2/2e/Java_Logo.svg/131px-Java_Logo.svg.png" width="150px" />
 
 
 ---
