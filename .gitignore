@@ -1,0 +1,13 @@
+.docker-container.built
+docker-rules.mk
+*~
+.*~
+*#
+.#*
+source.tar.gz
+source.tar.xz
+sd*.raw*
+rootfs*
+*/*.tar
+*/*.built
+*.swp
