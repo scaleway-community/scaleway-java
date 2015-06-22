@@ -10,6 +10,8 @@ RUN apt-get -q update \
   && apt-get --force-yes -y -qq upgrade
 
 # http://www.oracle.com/technetwork/java/javase/downloads/jdk8-arm-downloads-2187472.html
+ENV JAVA_VERSION 8
+ENV JAVA_UPDATE 33
 RUN curl -v -j -L -H "Cookie: oraclelicense=accept-securebackup-cookie" \
     http://download.oracle.com/otn-pub/java/jdk/8u33-b05/jdk-8u33-linux-arm-vfp-hflt.tar.gz > /tmp/jdk.tar.gz \
  && mkdir -p /opt/java \
