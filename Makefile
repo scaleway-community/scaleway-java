@@ -1,7 +1,7 @@
 DOCKER_NAMESPACE =	armbuild/
 NAME =			scw-app-java
 VERSION =		latest
-VERSION_ALIASES =	14.10 14 latest utopic 1.0.0
+VERSION_ALIASES =	8 8u33
 TITLE =			Java
 DESCRIPTION =		Java jdk-8u33-linux-arm-vfp-hflt
 SOURCE_URL =		https://github.com/scaleway/image-app-java
