@@ -11,7 +11,7 @@ RUN apt-get -q update \
 
 # http://www.oracle.com/technetwork/java/javase/downloads/jdk8-arm-downloads-2187472.html
 ENV JAVA_VERSION 8
-ENV JAVA_UPDATE 33
+ENV JAVA_UPDATE 60
 RUN curl -v -j -L -H "Cookie: oraclelicense=accept-securebackup-cookie" \
     http://download.oracle.com/otn-pub/java/jdk/8u60-b27/jdk-8u60-linux-arm32-vfp-hflt.tar.gz > /tmp/jdk.tar.gz \
  && mkdir -p /opt/java \
