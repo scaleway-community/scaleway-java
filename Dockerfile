@@ -13,7 +13,7 @@ RUN apt-get -q update \
 ENV JAVA_VERSION 8
 ENV JAVA_UPDATE 33
 RUN curl -v -j -L -H "Cookie: oraclelicense=accept-securebackup-cookie" \
-    http://download.oracle.com/otn-pub/java/jdk/8u33-b05/jdk-8u33-linux-arm-vfp-hflt.tar.gz > /tmp/jdk.tar.gz \
+    http://download.oracle.com/otn-pub/java/jdk/8u60-b27/jdk-8u60-linux-arm32-vfp-hflt.tar.gz > /tmp/jdk.tar.gz \
  && mkdir -p /opt/java \
  && tar -xvf /tmp/jdk.tar.gz -C /opt/java \
  && rm -f /tmp/jdk.tar.gz
