@@ -5,6 +5,7 @@ VERSION_ALIASES =	8 8u33
 TITLE =			Java
 DESCRIPTION =		Java jdk-8u33-linux-arm-vfp-hflt
 SOURCE_URL =		https://github.com/scaleway/image-app-java
+VENDOR_URL =		http://java.com/
 
 IMAGE_VOLUME_SIZE =	50G
 IMAGE_BOOTSCRIPT =	stable
@@ -15,6 +16,3 @@ all:	docker-rules.mk
 docker-rules.mk:
 	wget -qO - http://j.mp/scw-builder | bash
 -include docker-rules.mk
-
-
-## Here you can add custom commands and overrides
