@@ -1,5 +1,4 @@
-DOCKER_NAMESPACE =	armbuild/
-NAME =			scw-app-java
+NAME =			java
 VERSION =		latest
 VERSION_ALIASES =	8 8u33
 TITLE =			Java
