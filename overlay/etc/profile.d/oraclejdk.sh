@@ -1,5 +1,5 @@
-export J2SDKDIR=/opt/java/jdk1.8.0_60
-export J2REDIR=/opt/java/jdk1.8.0_60/jre
-export PATH=$PATH:/opt/jdk1.8.0_60/bin:/opt/java/jdk1.8.0_60/db/bin:/opt/java/jdk1.8.0_60/jre/bin
-export JAVA_HOME=/opt/java/jdk1.8.0_60
-export DERBY_HOME=/opt/java/jdk1.8.0_60/db
+export J2SDKDIR=/usr/lib/jvm/java-8-oracle
+export J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+export PATH=$PATH:/opt/jdk1.8.0_60/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+export DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
