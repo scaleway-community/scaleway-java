@@ -1,0 +1,4 @@
+file:
+  - path: /usr/lib/jvm/java-9-oracle/bin/java
+    owner: root:root
+    perm: 0775
