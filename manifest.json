@@ -1,4 +1,5 @@
 {
+  "images": {
     "scaleway-java8": {
         "directory": "8",
         "architectures": [
@@ -6,4 +7,5 @@
         ],
         "marketplace-id":"d72d1b73-7460-446b-91fb-b451d079aa4d"
     }
+  }
 }
