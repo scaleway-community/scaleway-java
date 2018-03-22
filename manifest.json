@@ -6,6 +6,20 @@
             "arm", "arm64", "x86_64"
         ],
         "marketplace-id":"d72d1b73-7460-446b-91fb-b451d079aa4d"
+    },
+    "scaleway-java9": {
+        "directory": "9",
+        "architectures": [
+            "arm", "arm64", "x86_64"
+        ],
+        "marketplace-id":""
+    },
+    "scaleway-java10": {
+        "directory": "10",
+        "architectures": [
+            "arm", "arm64", "x86_64"
+        ],
+        "marketplace-id":""
     }
   }
 }
